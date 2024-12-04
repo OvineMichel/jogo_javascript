@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Press+Start+2P&display=swap');
+body{
+    margin: 0;
+}
+#jogo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 114, 203);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+header{
+    background-color: rgb(37, 114, 203);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#area-selecao{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 114, 203);
+}
+
+.div-selecao{
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+#facil{
+    border: none;
+    padding: 50px;
+    background-color: rgb(63, 202, 63);
+    font-family: "Press Start 2P";
+    border-radius: 8px;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+#facil:hover{
+    background-color: rgb(59, 163, 59);
+}
+
+#dificil:hover{
+    background-color: rgb(168, 47, 40);
+
+}
+
+#dificil{
+    border: none;
+    padding: 50px;
+    background-color: rgb(216, 51, 43);
+    font-family: "Press Start 2P";
+    border-radius: 8px;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    cursor: pointer;
+
+}
+
+.desc-modo{
+    font-family: "Press Start 2P";
+    color: white;
+    background-color: rgb(50, 138, 239);
+    padding: 10px;
+    border-radius: 8px;
+    line-height: 1.8;
+    font-size: 15px;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    background-color: rgb(43, 43, 187);
+    font-family: 'Press Start 2P';
+    padding: 10px;
+    text-align: center ;
+    width: 730px;
+}
+
+#pontos{
+    font-family: "press start 2p";
+    line-height: 1.8;
+    font-size: 11px;
+    width: 800px;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    text-align: center  ;
+}
+
+#desc{
+    font-family: "press start 2p";
+    line-height: 1.8;
+    font-size: 20px;
+    width: 800px;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+}
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
